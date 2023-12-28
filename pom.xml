@@ -25,9 +25,35 @@
     <java.version>17</java.version>
   </properties>
 
-  <dependencyManagement></dependencyManagement>
-
-  <dependencies></dependencies>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.gfmartinez.hexagonalarchitecture</groupId>
+        <artifactId>domain-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.gfmartinez.hexagonalarchitecture</groupId>
+        <artifactId>application-service</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.gfmartinez.hexagonalarchitecture</groupId>
+        <artifactId>application</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.gfmartinez.hexagonalarchitecture</groupId>
+        <artifactId>dataaccess</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.gfmartinez.hexagonalarchitecture</groupId>
+        <artifactId>messaging</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <build>
     <plugins>
@@ -38,6 +64,11 @@
         <configuration>
           <release>${java.version}</release>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>com.github.ferstl</groupId>
+        <artifactId>depgraph-maven-plugin</artifactId>
+        <version>4.0.2</version>
       </plugin>
     </plugins>
   </build>

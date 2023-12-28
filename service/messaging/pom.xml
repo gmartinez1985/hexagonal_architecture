@@ -14,4 +14,11 @@
   <properties>
   </properties>
 
+  <dependencies>
+    <dependency>
+      <groupId>com.gfmartinez.hexagonalarchitecture</groupId>
+      <artifactId>application-service</artifactId>
+    </dependency>
+  </dependencies>
+
 </project>

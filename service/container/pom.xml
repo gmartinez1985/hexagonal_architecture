@@ -14,4 +14,27 @@
   <properties>
   </properties>
 
+  <dependencies>
+    <dependency>
+      <groupId>com.gfmartinez.hexagonalarchitecture</groupId>
+      <artifactId>domain-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.gfmartinez.hexagonalarchitecture</groupId>
+      <artifactId>application-service</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.gfmartinez.hexagonalarchitecture</groupId>
+      <artifactId>application</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.gfmartinez.hexagonalarchitecture</groupId>
+      <artifactId>dataaccess</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.gfmartinez.hexagonalarchitecture</groupId>
+      <artifactId>messaging</artifactId>
+    </dependency>
+  </dependencies>
+
 </project>
