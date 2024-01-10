@@ -6,7 +6,7 @@ This is a personal didactic project showcasing a hexagonal architecture implemen
 ## Requirements
 - JDK 17: The application requires Java Development Kit version 17 to run. Ensure this version is installed.
 - Maven 3.9.2 or higher: It's recommended to have Maven version 3.9.2 or above installed.
-- Graphviz 9.0.0 or higher: Minimum version of Graphviz required to generate the dependency graph.
+- (Optional) Graphviz 9.0.0 or higher: Minimum version of Graphviz required to generate the dependency graph.
 
 ## Installation
 Steps to install and set up the application locally. This may include dependencies, installation commands, etc.

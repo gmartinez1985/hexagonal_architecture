@@ -17,6 +17,7 @@
     <module>dataaccess</module>
     <module>messaging</module>
     <module>container</module>
+    <module>servicio</module>
   </modules>
 
   <properties>

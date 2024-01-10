@@ -12,8 +12,8 @@
   <artifactId>domain</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>domain-core</module>
-    <module>application-service</module>
+    <module>domain-model</module>
+    <module>domain-usecases</module>
   </modules>
 
   <properties>

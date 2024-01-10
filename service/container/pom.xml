@@ -17,11 +17,11 @@
   <dependencies>
     <dependency>
       <groupId>com.gfmartinez.hexagonalarchitecture</groupId>
-      <artifactId>domain-core</artifactId>
+      <artifactId>domain-model</artifactId>
     </dependency>
     <dependency>
       <groupId>com.gfmartinez.hexagonalarchitecture</groupId>
-      <artifactId>application-service</artifactId>
+      <artifactId>domain-usecases</artifactId>
     </dependency>
     <dependency>
       <groupId>com.gfmartinez.hexagonalarchitecture</groupId>
