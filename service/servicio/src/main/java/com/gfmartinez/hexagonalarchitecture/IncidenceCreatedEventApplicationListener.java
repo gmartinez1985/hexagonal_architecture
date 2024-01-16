@@ -1,6 +1,6 @@
 package com.gfmartinez.hexagonalarchitecture;
 
-import com.gfmartinez.hexagonalarchitecture.domain.model.event.IncidenceCreatedEvent;
+import com.gfmartinez.incidences.hexagon.incidencesmanagement.domain.model.incidence.event.IncidenceCreatedEvent;
 import com.gfmartinez.hexagonalarchitecture.outport.message.publisher.IncidenceCreatedNotificationRequestMessagePublisher;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

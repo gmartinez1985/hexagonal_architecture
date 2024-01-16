@@ -1,9 +1,9 @@
 package com.gfmartinez.hexagonalarchitecture.incidence.service.messaging.publisher.rabbit;
 
 import com.gfmartinez.hexagonalarchitecture.config.IncidenceServiceConfigData;
-import com.gfmartinez.hexagonalarchitecture.domain.model.event.IncidenceCreatedEvent;
 import com.gfmartinez.hexagonalarchitecture.incidence.service.messaging.mapper.IncidenceMessagingDataMapper;
 import com.gfmartinez.hexagonalarchitecture.outport.message.publisher.IncidenceCreatedNotificationRequestMessagePublisher;
+import com.gfmartinez.incidences.hexagon.incidencesmanagement.domain.model.incidence.event.IncidenceCreatedEvent;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Component;

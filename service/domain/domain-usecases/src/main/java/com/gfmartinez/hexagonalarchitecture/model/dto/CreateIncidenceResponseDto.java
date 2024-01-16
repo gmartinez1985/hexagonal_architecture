@@ -1,6 +1,6 @@
 package com.gfmartinez.hexagonalarchitecture.model.dto;
 
-import com.gfmartinez.hexagonalarchitecture.domain.model.valueobject.IncidenceStatus;
+import com.gfmartinez.incidences.hexagon.incidencesmanagement.domain.model.incidence.valueobjects.IncidenceStatus;
 import java.time.ZonedDateTime;
 import java.util.UUID;
 import lombok.AllArgsConstructor;

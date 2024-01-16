@@ -12,7 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RestController
-@RequestMapping(value = "/v1/incidences", produces = "application/vnd,api.v1+json")
+//@RequestMapping(value = "/v1/incidences", produces = "application/vnd,api.v1+json")
+@RequestMapping(value = "/v1/incidences")
 public class IncidenceController {
 
   private final ICreateIncidenceHandler createIncidenceHandler;

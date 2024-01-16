@@ -1,6 +1,6 @@
 package com.gfmartinez.hexagonalarchitecture.service.dataaccess.incidence.entity;
 
-import com.gfmartinez.hexagonalarchitecture.domain.model.valueobject.IncidenceSeverity;
+import com.gfmartinez.incidences.hexagon.incidencesmanagement.domain.model.incidence.valueobjects.IncidenceSeverity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;

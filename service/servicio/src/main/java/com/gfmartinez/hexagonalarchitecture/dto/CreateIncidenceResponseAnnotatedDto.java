@@ -1,6 +1,6 @@
 package com.gfmartinez.hexagonalarchitecture.dto;
 
-import com.gfmartinez.hexagonalarchitecture.domain.model.valueobject.IncidenceStatus;
+import com.gfmartinez.incidences.hexagon.incidencesmanagement.domain.model.incidence.valueobjects.IncidenceStatus;
 import com.gfmartinez.hexagonalarchitecture.model.dto.AttachmentDto;
 import jakarta.validation.constraints.NotNull;
 import java.time.ZonedDateTime;

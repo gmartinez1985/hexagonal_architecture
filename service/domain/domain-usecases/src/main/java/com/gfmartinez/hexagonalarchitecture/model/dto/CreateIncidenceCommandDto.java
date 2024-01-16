@@ -1,6 +1,6 @@
 package com.gfmartinez.hexagonalarchitecture.model.dto;
 
-import com.gfmartinez.hexagonalarchitecture.domain.model.valueobject.IncidenceSeverity;
+import com.gfmartinez.incidences.hexagon.incidencesmanagement.domain.model.incidence.valueobjects.IncidenceSeverity;
 import java.util.UUID;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,6 +1,6 @@
 package com.gfmartinez.hexagonalarchitecture.service.dataaccess.incidence.adapter;
 
-import com.gfmartinez.hexagonalarchitecture.domain.model.entity.Incidence;
+import com.gfmartinez.incidences.hexagon.incidencesmanagement.domain.model.incidence.entity.Incidence;
 import com.gfmartinez.hexagonalarchitecture.repository.IncidenceRepository;
 import com.gfmartinez.hexagonalarchitecture.service.dataaccess.incidence.entity.IncidenceEntity;
 import com.gfmartinez.hexagonalarchitecture.service.dataaccess.incidence.mapper.IncidenceDataAccessMapper;

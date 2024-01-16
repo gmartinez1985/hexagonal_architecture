@@ -1,6 +1,6 @@
 package com.gfmartinez.hexagonalarchitecture.service.application.exception.handler;
 
-import com.gfmartinez.hexagonalarchitecture.domain.model.exception.IncidenceDomainException;
+import com.gfmartinez.incidences.hexagon.incidencesmanagement.domain.model.incidence.exception.IncidenceDomainException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;

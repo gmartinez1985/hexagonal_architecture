@@ -1,12 +1,11 @@
 package com.gfmartinez.hexagonalarchitecture.service.dataaccess.incidence.mapper;
 
-import com.gfmartinez.hexagonalarchitecture.domain.model.entity.Incidence;
-import com.gfmartinez.hexagonalarchitecture.domain.model.valueobject.ClientId;
-import com.gfmartinez.hexagonalarchitecture.domain.model.valueobject.IncidenceDescription;
-import com.gfmartinez.hexagonalarchitecture.domain.model.valueobject.IncidenceHeader;
-import com.gfmartinez.hexagonalarchitecture.domain.model.valueobject.IncidenceSeverity;
-import com.gfmartinez.hexagonalarchitecture.domain.model.valueobject.ReporterId;
 import com.gfmartinez.hexagonalarchitecture.service.dataaccess.incidence.entity.IncidenceEntity;
+import com.gfmartinez.incidences.hexagon.incidencesmanagement.domain.model.incidence.entity.Incidence;
+import com.gfmartinez.incidences.hexagon.incidencesmanagement.domain.model.incidence.valueobjects.ClientId;
+import com.gfmartinez.incidences.hexagon.incidencesmanagement.domain.model.incidence.valueobjects.IncidenceDescription;
+import com.gfmartinez.incidences.hexagon.incidencesmanagement.domain.model.incidence.valueobjects.IncidenceHeader;
+import com.gfmartinez.incidences.hexagon.incidencesmanagement.domain.model.incidence.valueobjects.ReporterId;
 import org.springframework.stereotype.Component;
 
 @Component
